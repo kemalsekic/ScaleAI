@@ -40,8 +40,8 @@ def loginToCorp():
     print("Thank you")
     clickElem("/html/body/div[2]/div[3]/div/div[3]/button/span[1]")
     clickElem("/html/body/div/div[3]/div[3]/div/div/a/span")
-    vozac.Driver.find_element_by_id("username").send_keys("kemal.sekic")
-    vozac.Driver.find_element_by_id("password").send_keys("JamesPauli1010!@")
+    vozac.Driver.find_element_by_id("username").send_keys("user.name")
+    vozac.Driver.find_element_by_id("password").send_keys("pass")
     vozac.Driver.find_element_by_id("passwordSecondary").send_keys(x)
     vozac.Driver.find_element_by_id("btnSubmit_5").click()
     try:
